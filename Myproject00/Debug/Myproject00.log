@@ -1,0 +1,95 @@
+﻿生成启动时间为 2021/2/11 13:02:45。
+     1>项目“D:\学习\2021寒假C语言基础最后一次学习\Myproject00\Myproject00\Myproject00.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\Myproject00.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt union.c
+         union.c
+     1>d:\学习\2021寒假c语言基础最后一次学习\myproject00\myproject00\union.c(21): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>d:\学习\2021寒假c语言基础最后一次学习\myproject00\myproject00\union.c(24): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+     1>d:\学习\2021寒假c语言基础最后一次学习\myproject00\myproject00\union.c(28): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(304) : 参见“scanf”的声明
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\学习\2021寒假C语言基础最后一次学习\Myproject00\Debug\Myproject00.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Myproject00.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\学习\2021寒假C语言基础最后一次学习\Myproject00\Debug\Myproject00.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\学习\2021寒假C语言基础最后一次学习\Myproject00\Debug\Myproject00.lib" /MACHINE:X86 Debug\arrayDemo.obj
+         Debug\arrySropPoint.obj
+         Debug\assignOperatorDemo02.obj
+         Debug\basicToStr.obj
+         Debug\bitOperator01.obj
+         Debug\boolDemo.obj
+         Debug\bubbblSort.obj
+         Debug\catDemo.obj
+         Debug\constDemo.obj
+         Debug\constvsdefine.obj
+         Debug\constVsdefine01.obj
+         Debug\defineD.obj
+         Debug\defineDemo.obj
+         Debug\enumDemo.obj
+         Debug\enumDemo02.obj
+         Debug\Exercise01.obj
+         Debug\exercise02.obj
+         Debug\ExerciseDemo06.obj
+         Debug\extern.obj
+         Debug\FeBoDemo.obj
+         Debug\forDemo04.obj
+         Debug\functionDemo.obj
+         Debug\funtionPointer.obj
+         Debug\funvsDefine.obj
+         Debug\mallocDemo.obj
+         Debug\muitlPointer.obj
+         Debug\mulitarry.obj
+         Debug\myFun.obj
+         Debug\gotoDemo.obj
+         Debug\if_elseDemo.obj
+         Debug\do_whlieDemo01.obj
+         Debug\if_elseDemo02.obj
+         Debug\inputDemo.obj
+         Debug\multiExercise08.obj
+         Debug\multiForDemo07.obj
+         Debug\multOperatorDemo03.obj
+         Debug\nullPointer.obj
+         Debug\operator.obj
+         Debug\operatorDemo00.obj
+         Debug\LogicOperatorDemo01.obj
+         Debug\pointer.obj
+         Debug\pointerArryDemo.obj
+         Debug\pointerCase.obj
+         Debug\pointerDemo.obj
+         Debug\pointerDemo03.obj
+         Debug\preProcess.obj
+         Debug\rankDemo.obj
+         Debug\recursionDemo.obj
+         Debug\returnFuntion.obj
+         Debug\returnPointer.obj
+         Debug\static.obj
+         Debug\stopPoint.obj
+         Debug\strfun.obj
+         Debug\stringArry.obj
+         Debug\strToBasic.obj
+         Debug\structExercise.obj
+         Debug\switchDemo03.obj
+         Debug\switchEnumDemo03.obj
+         Debug\timeFuntion.obj
+         Debug\union.obj
+         Debug\variableChar.obj
+         Debug\variableFloat.obj
+         Debug\outputExercise00.obj
+         Debug\variableInteger.obj
+         Debug\variableTransfer.obj
+         Debug\ForcevariableTransfer.obj
+         Debug\varscop.obj
+         Debug\visitTick.obj
+         Debug\whileDemo05.obj
+         LINK : 没有找到 D:\学习\2021寒假C语言基础最后一次学习\Myproject00\Debug\Myproject00.exe 或上一个增量链接没有生成它；正在执行完全链接
+         Myproject00.vcxproj -> D:\学习\2021寒假C语言基础最后一次学习\Myproject00\Debug\Myproject00.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\学习\2021寒假C语言基础最后一次学习\Myproject00\Debug\Myproject00.exe;#1" /manifest Debug\Myproject00.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\Myproject00.unsuccessfulbuild”。
+         正在对“Debug\Myproject00.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\学习\2021寒假C语言基础最后一次学习\Myproject00\Myproject00\Myproject00.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.54

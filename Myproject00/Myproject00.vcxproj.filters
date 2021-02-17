@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\chapter00">
+      <UniqueIdentifier>{ef7ed131-974e-4938-b91b-484e5722036e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter01">
+      <UniqueIdentifier>{fb5d5eb5-b229-448f-8f37-4aea5fcf0f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter02">
+      <UniqueIdentifier>{f44aad1c-13fa-48bb-81d6-96d2475f00cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter03">
+      <UniqueIdentifier>{beb016bf-e347-4975-8b51-45cc9be051e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter04">
+      <UniqueIdentifier>{7f27f8eb-51f1-49a5-b973-a10a4955db42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter05">
+      <UniqueIdentifier>{4d7b1fd4-af8c-45d1-b398-022280774021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter06">
+      <UniqueIdentifier>{c5093fad-9c5a-4fd0-9099-ad4307ac1c4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter07">
+      <UniqueIdentifier>{b3eeefbe-beb0-408c-aca5-ce99f68f29eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter08">
+      <UniqueIdentifier>{03a02ec1-cbe5-4485-ba25-a6f966d89409}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter09">
+      <UniqueIdentifier>{52ce42bd-efa7-4aa4-8ccb-66b2179ee6b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\chapter10">
+      <UniqueIdentifier>{a50d9d59-a692-47f6-90cd-29b689d96384}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Exercise01.c">
+      <Filter>源文件\chapter00</Filter>
+    </ClCompile>
+    <ClCompile Include="outputExercise00.c">
+      <Filter>源文件\chapter00</Filter>
+    </ClCompile>
+    <ClCompile Include="variableInteger.c">
+      <Filter>源文件\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="variableFloat.c">
+      <Filter>源文件\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="variableChar.c">
+      <Filter>源文件\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="boolDemo.c">
+      <Filter>源文件\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="variableTransfer.c">
+      <Filter>源文件\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="ForcevariableTransfer.c">
+      <Filter>源文件\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="exercise02.c">
+      <Filter>源文件\chapter01</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.c">
+      <Filter>源文件\chapter02</Filter>
+    </ClCompile>
+    <ClCompile Include="defineDemo.c">
+      <Filter>源文件\chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="constDemo.c">
+      <Filter>源文件\chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="constvsdefine.c">
+      <Filter>源文件\chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="constVsdefine01.c">
+      <Filter>源文件\chapter03</Filter>
+    </ClCompile>
+    <ClCompile Include="operator.c">
+      <Filter>源文件\chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="operatorDemo00.c">
+      <Filter>源文件\chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="LogicOperatorDemo01.c">
+      <Filter>源文件\chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="assignOperatorDemo02.c">
+      <Filter>源文件\chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="multOperatorDemo03.c">
+      <Filter>源文件\chapter04</Filter>
+    </ClCompile>
+    <ClCompile Include="inputDemo.c">
+      <Filter>源文件\chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="bitOperator01.c">
+      <Filter>源文件\chapter05</Filter>
+    </ClCompile>
+    <ClCompile Include="if_elseDemo.c">
+      <Filter>源文件\chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="if_elseDemo02.c">
+      <Filter>源文件\chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="switchDemo03.c">
+      <Filter>源文件\chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="forDemo04.c">
+      <Filter>源文件\chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="whileDemo05.c">
+      <Filter>源文件\chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="do_whlieDemo01.c">
+      <Filter>源文件\chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="ExerciseDemo06.c">
+      <Filter>源文件\chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="multiForDemo07.c">
+      <Filter>源文件\chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="multiExercise08.c">
+      <Filter>源文件\chapter06</Filter>
+    </ClCompile>
+    <ClCompile Include="rankDemo.c">
+      <Filter>源文件\chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="gotoDemo.c">
+      <Filter>源文件\chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="enumDemo.c">
+      <Filter>源文件\chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="enumDemo02.c">
+      <Filter>源文件\chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="switchEnumDemo03.c">
+      <Filter>源文件\chapter07</Filter>
+    </ClCompile>
+    <ClCompile Include="myFun.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="functionDemo.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="recursionDemo.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="FeBoDemo.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="varscop.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="static.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="extern.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="strfun.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="timeFuntion.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="basicToStr.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="strToBasic.c">
+      <Filter>源文件\chapter08</Filter>
+    </ClCompile>
+    <ClCompile Include="preProcess.c">
+      <Filter>源文件\chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="defineD.c">
+      <Filter>源文件\chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="funvsDefine.c">
+      <Filter>源文件\chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="arrayDemo.c">
+      <Filter>源文件\chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="stringArry.c">
+      <Filter>源文件\chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="bubbblSort.c">
+      <Filter>源文件\chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="mulitarry.c">
+      <Filter>源文件\chapter09</Filter>
+    </ClCompile>
+    <ClCompile Include="stopPoint.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="arrySropPoint.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="pointerDemo.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="pointerDemo03.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="pointerArryDemo.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="pointerCase.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="muitlPointer.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="returnPointer.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="funtionPointer.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="returnFuntion.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="nullPointer.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="mallocDemo.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="catDemo.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="structExercise.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="visitTick.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+    <ClCompile Include="union.c">
+      <Filter>源文件\chapter10</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myFun.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

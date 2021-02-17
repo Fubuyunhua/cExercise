@@ -1,0 +1,1 @@
+double sum(double n1,double n2);//所需的函数名的申明

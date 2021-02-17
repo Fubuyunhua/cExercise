@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{47124776-38BB-4C3D-B9F5-4AC5F9AEE22A}</ProjectGuid>
+    <RootNamespace>Myproject00</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="arrayDemo.c" />
+    <ClCompile Include="arrySropPoint.c" />
+    <ClCompile Include="assignOperatorDemo02.c" />
+    <ClCompile Include="basicToStr.c" />
+    <ClCompile Include="bitOperator01.c" />
+    <ClCompile Include="boolDemo.c" />
+    <ClCompile Include="bubbblSort.c" />
+    <ClCompile Include="catDemo.c" />
+    <ClCompile Include="constDemo.c" />
+    <ClCompile Include="constvsdefine.c" />
+    <ClCompile Include="constVsdefine01.c" />
+    <ClCompile Include="defineD.c" />
+    <ClCompile Include="defineDemo.c" />
+    <ClCompile Include="enumDemo.c" />
+    <ClCompile Include="enumDemo02.c" />
+    <ClCompile Include="Exercise01.c" />
+    <ClCompile Include="exercise02.c" />
+    <ClCompile Include="ExerciseDemo06.c" />
+    <ClCompile Include="extern.c" />
+    <ClCompile Include="FeBoDemo.c" />
+    <ClCompile Include="forDemo04.c" />
+    <ClCompile Include="functionDemo.c" />
+    <ClCompile Include="funtionPointer.c" />
+    <ClCompile Include="funvsDefine.c" />
+    <ClCompile Include="mallocDemo.c" />
+    <ClCompile Include="muitlPointer.c" />
+    <ClCompile Include="mulitarry.c" />
+    <ClCompile Include="myFun.c" />
+    <ClCompile Include="gotoDemo.c" />
+    <ClCompile Include="if_elseDemo.c" />
+    <ClCompile Include="do_whlieDemo01.c" />
+    <ClCompile Include="if_elseDemo02.c" />
+    <ClCompile Include="inputDemo.c" />
+    <ClCompile Include="multiExercise08.c" />
+    <ClCompile Include="multiForDemo07.c" />
+    <ClCompile Include="multOperatorDemo03.c" />
+    <ClCompile Include="nullPointer.c" />
+    <ClCompile Include="operator.c" />
+    <ClCompile Include="operatorDemo00.c" />
+    <ClCompile Include="LogicOperatorDemo01.c" />
+    <ClCompile Include="pointer.c" />
+    <ClCompile Include="pointerArryDemo.c" />
+    <ClCompile Include="pointerCase.c" />
+    <ClCompile Include="pointerDemo.c" />
+    <ClCompile Include="pointerDemo03.c" />
+    <ClCompile Include="preProcess.c" />
+    <ClCompile Include="rankDemo.c" />
+    <ClCompile Include="recursionDemo.c" />
+    <ClCompile Include="returnFuntion.c" />
+    <ClCompile Include="returnPointer.c" />
+    <ClCompile Include="static.c" />
+    <ClCompile Include="stopPoint.c" />
+    <ClCompile Include="strfun.c" />
+    <ClCompile Include="stringArry.c" />
+    <ClCompile Include="strToBasic.c" />
+    <ClCompile Include="structExercise.c" />
+    <ClCompile Include="switchDemo03.c" />
+    <ClCompile Include="switchEnumDemo03.c" />
+    <ClCompile Include="timeFuntion.c" />
+    <ClCompile Include="union.c" />
+    <ClCompile Include="variableChar.c" />
+    <ClCompile Include="variableFloat.c" />
+    <ClCompile Include="outputExercise00.c" />
+    <ClCompile Include="variableInteger.c" />
+    <ClCompile Include="variableTransfer.c" />
+    <ClCompile Include="ForcevariableTransfer.c" />
+    <ClCompile Include="varscop.c" />
+    <ClCompile Include="visitTick.c" />
+    <ClCompile Include="whileDemo05.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="myFun.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
